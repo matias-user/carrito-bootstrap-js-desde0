@@ -4,7 +4,6 @@ import {  capturarDatos, recorrerArray, limpiarTabla } from './funciones.js';
 let objetoListo = {};   
 export let array = [];
 let botonCerrar = '';
-
 document.addEventListener('DOMContentLoaded', () => {
 
     botones.forEach( btn => {
