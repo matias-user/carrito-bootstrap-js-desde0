@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Neucha&display=swap" rel="stylesheet">    
+    <title>Carrito de compra by Matias Abarca</title>
+</head>
+<body>  
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+          <span class="navbar-brand mb-0 h1"><h1>Carrito de compra con JS</h1></span>
+          <button type="button" class="btn btn-success">
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shopping-cart" width="62" height="62" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                  <circle cx="6" cy="19" r="2" />
+                  <circle cx="17" cy="19" r="2" />
+                  <path d="M17 17h-11v-14h-2" />
+                  <path d="M6 5l14 1l-1 7h-13" />
+                </svg>
+              </button>
+              <div>
+                <table class="table d-none">
+                  <thead>
+                    <tr >
+                      <th scope="col"></th>
+                      <th scope="col">Nombre</th>
+                      <th scope="col">Precio</th>
+                      <button type="button" class="btn btn-success" id="x">X</button>
+                    </tr>
+                  </thead>
+                </table>
+              </div>
+          </div>
+          
+      </nav> 
+
+      <div class="container">
+          <div class="row mt-3">
+              <div class="col d-flex flex-wrap justify-content-between align-items-center">
+                <div class="card my-2" style="width: 18rem;">
+                    <img src="./img/imagen1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Audifonos Guapos</h5>
+                      <p class="fw-bold" >Precio: <span class="precio">80.000</span> pesos</p>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <button type="button" id="1" href="#" class="btn btn-success btnElegir" >Añadir al carrito</button >
+                    </div>
+                  </div><!--Termino del div card-->
+                  <div class="card my-2" style="width: 18rem;">
+                    <img src="./img/imagen2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Play station 4.5</h5>
+                      <p class="fw-bold" >Precio: <span class="precio">400.000</span> pesos</p>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <button type="button" id="2" href="#" class="btn btn-success btnElegir" >Añadir al carrito</button>
+                    </div>
+                  </div><!--Termino del div card-->
+                  <div class="card my-2" style="width: 18rem;">
+                    <img src="./img/imagen3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Teclado de Lujo</h5>
+                      <p class="fw-bold" >Precio: <span class="precio">150.000</span> pesos</p>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <button type="button" id="3" href="#" class="btn btn-success btnElegir" id="">Añador al carrito</button>
+                    </div>
+                  </div><!--Termino del div card-->
+                  <div class="card my-2" style="width: 18rem;">
+                    <img src="./img/imagen4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Joystick first class</h5>
+                      <p class="fw-bold" >Precio: <span class="precio">90.000</span> pesos</p>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <button type="button" id="4" href="#" class="btn btn-success btnElegir" id="">Añador al carrito</button>
+                    </div>
+                  </div><!--Termino del div card-->
+                  <div class="card my-2" style="width: 18rem;">
+                    <img src="./img/imagen5.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Pc Quantum</h5>
+                      <p class="fw-bold" >Precio: <span class="precio">900.000</span> pesos</p>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <button type="button" id="5" href="#" class="btn btn-success btnElegir" id="">Añador al carrito</button>
+                    </div>
+                  </div><!--Termino del div card-->
+                  <div class="card my-2" style="width: 18rem;">
+                    <img src="./img/imagen6.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Mouse Magico</h5>
+                      <p class="fw-bold" >Precio: <span class="precio">75.000</span> pesos</p>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <button type="button" id="6" href="#" class="btn btn-success btnElegir" id="">Añador al carrito</button>
+                    </div>
+                  </div><!--Termino del div card-->
+              </div>
+          </div>
+      </div>
+      <script src="./js-no-boost/app.js" type="module"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+<img src="" alt="">

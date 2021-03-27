@@ -1,0 +1,8 @@
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(209,212,210,1) 0%, rgba(211,227,222,1) 66%);
+}
+h1 {
+    font-family: 'Neucha', cursive;
+    
+}
